@@ -18,7 +18,7 @@
 
 ## 🚀 Live Demo & Interactive App
 
-> ### [🚀 Click Here to Launch the Live Streamlit App](https://udemy-analysis-5plhvtb5ejedvvukcpt7ht.streamlit.app/)
+> ### [🚀 Click Here to Launch the Live Streamlit App](https://udemy-analysis-darppmus8rcayeqk2gxsbx.streamlit.app/)
 
 No installation required. Open the link above in any browser to:
 
