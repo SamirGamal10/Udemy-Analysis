@@ -37,7 +37,7 @@ COLOR_SEQUENCE = px.colors.qualitative.Set2
 CONTINUOUS_COLORS = "Tealgrn"
 PRIMARY_COLOR = "#2ca02c"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(BASE_DIR, "EDA Udemy.csv")
+CSV_PATH = os.path.join(BASE_DIR, "../data/processed/EDA Udemy.csv")
 
 DROP_COLS = ["course_id", "url", "course_title", "published_timestamp", "period"]
 ML_DROP_COLS = ["profit", "category_price"]
