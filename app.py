@@ -16,6 +16,7 @@ from sklearn.ensemble import RandomForestRegressor # pyright: ignore[reportMissi
 from sklearn.preprocessing import LabelEncoder # pyright: ignore[reportMissingModuleSource]
 from sklearn.metrics import r2_score # pyright: ignore[reportMissingModuleSource]
 
+import os
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -35,7 +36,8 @@ st.set_page_config(
 COLOR_SEQUENCE = px.colors.qualitative.Set2
 CONTINUOUS_COLORS = "Tealgrn"
 PRIMARY_COLOR = "#2ca02c"
-CSV_PATH = "EDA Udemy.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_PATH = os.path.join(BASE_DIR, "EDA Udemy.csv")
 
 DROP_COLS = ["course_id", "url", "course_title", "published_timestamp", "period"]
 ML_DROP_COLS = ["profit", "category_price"]
